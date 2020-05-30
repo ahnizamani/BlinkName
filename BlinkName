@@ -1,0 +1,110 @@
+int led = D7;// D7 over and over again.
+// You'll need to wire an LED to this one to see it blink.
+
+// setup function to setup what we do not want to repeat
+
+void setup() {
+
+  pinMode(led, OUTPUT);
+  
+}
+
+// Next we have the loop function, the other essential part of a microcontroller program.
+// This routine gets repeated over and over, as much as it can after the setup function is called.
+
+void loop(){
+    
+    // For Letter A
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (1000); 
+digitalWrite(led,LOW); 
+delay (400);
+
+// for letter B
+
+digitalWrite(led,HIGH);
+delay (1000); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+// for letter D
+
+digitalWrite(led,HIGH);
+delay (1000); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+// for letter U
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (1000); 
+digitalWrite(led,LOW); 
+delay (400);
+
+// for letter L
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (1000); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+digitalWrite(led,HIGH);
+delay (400); 
+digitalWrite(led,LOW); 
+delay (400);
+
+// To indicate that its has finalised.
+
+digitalWrite(led,LOW); 
+delay (10000);
+
+}
